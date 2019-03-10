@@ -19,7 +19,7 @@ So the Project Repository contains two folder one of Android app and other of Ba
 * Android Phone | Requirement : Lolipop 5.0 or above, Camera.
 
 ## Demo
-### The features implemented along with their feature
+### The features implemented along with their Screenshot
 Screenshot or Video | Feature Details|
 :-------------------------:|:-------------------------:|
 <img src="SS/LiveRush.gif" alt="Drawing" width="400" height="350"/>  | <b>Live Location & Rush Status</b> -  providing live location and rush status of all trains using crowd sourcing |
