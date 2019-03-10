@@ -85,10 +85,10 @@ public class TwitterFragment extends Fragment{
 			//Twitter API
 			ConfigurationBuilder cb = new ConfigurationBuilder();
 			cb.setDebugEnabled(true)
-					.setOAuthConsumerKey("8Gsnl3NLzDp7fx1SWUF8eiFM8")
-					.setOAuthConsumerSecret("cmRmXFQAJQnZr9zhDaLTNKDyczoZJqqwYp1mXx73cr24XP9Tnk")
-					.setOAuthAccessToken("1018895403121627136-xzNJg2ys2pDCDUOZ9F1qOiWgPSB0zL")
-					.setOAuthAccessTokenSecret("Wy2EzlVyWcbw6gPDKySiNk5IPF2JtDaQ2jT2jiqmq5a5T");
+					.setOAuthConsumerKey("Put Your Consumer Key")
+					.setOAuthConsumerSecret("Put your Auth Consumer Secret")
+					.setOAuthAccessToken("Put your Outh Access Token")
+					.setOAuthAccessTokenSecret("Put your Outh Access Token Secret");
 			TwitterFactory tf = new TwitterFactory(cb.build());
 			Twitter twitter = tf.getInstance();
 
