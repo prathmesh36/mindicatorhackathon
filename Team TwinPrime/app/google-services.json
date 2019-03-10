@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "159123937794",
+    "firebase_url": "https://cfg-preparation-app.firebaseio.com",
+    "project_id": "cfg-preparation-app",
+    "storage_bucket": "cfg-preparation-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159123937794:android:e843edb199556989",
+        "android_client_info": {
+          "package_name": "com.example.android.cfgprepapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159123937794-0q3559t0oaofjs8urm0691rhca4on7bb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQEwSGjWtCrckIcYhbzdwdYWNZkpk8JI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

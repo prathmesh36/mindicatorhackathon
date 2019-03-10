@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background_white"
+    android:minHeight="340dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@drawable/google_cards_background_top" >
+
+        <ImageView
+            android:id="@+id/list_item_google_cards_social_uimage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <com.example.android.cfgprepapp.font.RobotoTextView
+                android:id="@+id/list_item_google_cards_social_uname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="John Doe"
+                android:textColor="@color/material_grey_500"
+                android:textSize="16sp"
+                app:typeface="robotoLight" />
+
+            <com.example.android.cfgprepapp.font.RobotoTextView
+                android:id="@+id/list_item_google_cards_social_pdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="from Oklahoma"
+                android:textColor="@color/material_grey_400"
+                android:textSize="12sp"
+                android:layout_marginBottom="5dp"
+                app:typeface="robotoLight" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_item_google_cards_social_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/cd_main_image"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        android:background="@drawable/google_cards_background_bottom"  >
+
+        <com.example.android.cfgprepapp.font.RobotoTextView
+            android:id="@+id/list_item_google_cards_social_forum_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/transparent_button_selector"
+            android:paddingLeft="8dp"
+            android:text="NAME"
+            android:textColor="@color/main_color_500"
+            android:textSize="14sp"
+            app:typeface="robotoMedium" />
+
+        <com.example.android.cfgprepapp.font.RobotoTextView
+            android:id="@+id/list_item_google_cards_social_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp"
+            android:maxLines="2"
+            android:text="@string/lorem_ipsum_long"
+            android:textColor="@color/material_blue_grey_700"
+            android:textSize="14sp"
+            app:typeface="robotoRegular" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/main_color_500" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <com.example.android.cfgprepapp.font.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/transparent_button_selector"
+                android:padding="4dp"
+                android:text="REPLIES: "
+                android:textColor="@color/main_color_500"
+                android:textSize="14sp"
+                app:typeface="robotoMedium" />
+
+            <com.example.android.cfgprepapp.font.RobotoTextView
+                android:id="@+id/list_item_google_cards_social_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/transparent_button_selector"
+                android:padding="4dp"
+                android:text="23"
+                android:textColor="@color/material_grey_500"
+                android:textSize="14sp"
+                app:typeface="robotoMedium" />
+
+            <com.example.android.cfgprepapp.font.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/transparent_button_selector"
+                android:padding="4dp"
+                android:text="VIEWS: "
+                android:textColor="@color/main_color_500"
+                android:textSize="14sp"
+                app:typeface="robotoMedium" />
+
+            <com.example.android.cfgprepapp.font.RobotoTextView
+                android:id="@+id/list_item_google_cards_social_uview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/transparent_button_selector"
+                android:padding="4dp"
+                android:text="21"
+                android:textColor="@color/material_grey_500"
+                android:textSize="14sp"
+                app:typeface="robotoMedium" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

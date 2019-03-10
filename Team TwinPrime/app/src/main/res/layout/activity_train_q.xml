@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"
+            android:text="How crowded the train is?"
+            android:textColor="@color/main_color_500"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    app:rippleColor="@color/main_color_grey_400">
+
+                    <RadioButton
+                        android:id="@+id/first_radio_button"
+                        style="@style/CheckBoxStyle.Light"
+                        android:layout_width="match_parent"
+                        android:padding="16dp"
+                        android:text="No Place to stand" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    app:rippleColor="@color/main_color_grey_400">
+
+                    <RadioButton
+                        android:id="@+id/second_radio_button"
+                        style="@style/CheckBoxStyle.Light"
+                        android:layout_width="match_parent"
+                        android:padding="16dp"
+                        android:text="No Place to sit" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    app:rippleColor="@color/main_color_grey_400">
+
+                    <RadioButton
+                        android:id="@+id/third_radio_button"
+                        style="@style/CheckBoxStyle.Light"
+                        android:layout_width="match_parent"
+                        android:padding="16dp"
+                        android:text="Place to sit" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    app:rippleColor="@color/main_color_grey_400">
+
+                    <RadioButton
+                        android:id="@+id/fourth_radio_button"
+                        style="@style/CheckBoxStyle.Light"
+                        android:layout_width="match_parent"
+                        android:padding="16dp"
+                        android:text="Place even to sleep" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+        </RadioGroup>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/main_color_500" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:text="What's the status of the train"
+            android:textColor="@color/main_color_500"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/main_color_500" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    app:rippleColor="@color/main_color_grey_400">
+
+                    <RadioButton
+                        android:id="@+id/first_radio_button2"
+                        style="@style/CheckBoxStyle.Light"
+                        android:layout_width="match_parent"
+                        android:padding="16dp"
+                        android:text="Train Left the station" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    app:rippleColor="@color/main_color_grey_400">
+
+                    <RadioButton
+                        android:id="@+id/second_radio_button2"
+                        style="@style/CheckBoxStyle.Light"
+                        android:layout_width="match_parent"
+                        android:padding="16dp"
+                        android:text="Train at the Station" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    app:rippleColor="@color/main_color_grey_400">
+
+                    <RadioButton
+                        android:id="@+id/third_radio_button2"
+                        style="@style/CheckBoxStyle.Light"
+                        android:layout_width="match_parent"
+                        android:padding="16dp"
+                        android:text="Train reaching the station" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+            </LinearLayout>
+        </RadioGroup>
+
+
+        <View style="@style/DividerStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/q_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/material_purple_500"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:text="Submit"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
