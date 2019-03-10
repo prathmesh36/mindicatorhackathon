@@ -29,14 +29,14 @@ Screenshot or Video | Feature Details|
 
 Screenshot 1 | Screenshot 2 | Feature Details|
 :-------------------------:|:-------------------------:|:-------------------------:|
-<img src="SS/Shelter.png" alt="Drawing" width="400" height="350"/> | <img src="SS/Shelter2.png" alt="Drawing" width="350" height="400"/>  | <b>Shelter Service during disaster - </b> Providing list of nearby shelters during disaster as well as providing your home as shelter |
-<img src="SS/Forum.png" alt="Drawing" width="400" height="350"/>< | <img src="SS/Forum2.png" alt="Drawing" width="350" height="400"/>  | <b>Discussion Forum for Rail Community - </b> Allowing users to particiapte in discussion forums as well creating new forums of their own |
-<img src="SS/Profile.png" alt="Drawing" width="400" height="350"/> | <img src="SS/Search.png" alt="Drawing" width="350" height="400"/>  | <b>Social Network like UX - </b> Providing profile page and search option thus giving a social media like experience |
+<img src="SS/Shelter.png" alt="Drawing" width="400" height="350"/> | <img src="SS/Shelter2.png" alt="Drawing" width="400" height="350"/>  | <b>Shelter Service during disaster - </b> Providing list of nearby shelters during disaster as well as providing your home as shelter |
+<img src="SS/Forum.png" alt="Drawing" width="400" height="350"/>< | <img src="SS/Forum2.png" alt="Drawing" width="400" height="350"/>  | <b>Discussion Forum for Rail Community - </b> Allowing users to particiapte in discussion forums as well creating new forums of their own |
+<img src="SS/Profile.png" alt="Drawing" width="400" height="350"/> | <img src="SS/Search.png" alt="Drawing" width="400" height="350"/>  | <b>Social Network like UX - </b> Providing profile page and search option thus giving a social media like experience |
 
 Screenshot or Video | Feature Details|
 :-------------------------:|:-------------------------:|
-<img src="SS/Twitter.png" alt="Drawing" width="250" height="400"/>  | <b> mIndicatorRail Twitter Feed- </b> Providing all the tweets with #mIndicatorRail hashtag as well as allowing users to tweet with the same hashtag  |
-<img src="SS/UOM.png" alt="Drawing" width="250" height="400"/>  | <b>User of the month - </b> Page dedicated for all the users who contributed the most in the current month in crowd sourcing activities  |
+<img src="SS/Twitter.png" alt="Drawing" width="400" height="350"/>  | <b> mIndicatorRail Twitter Feed- </b> Providing all the tweets with #mIndicatorRail hashtag as well as allowing users to tweet with the same hashtag  |
+<img src="SS/UOM.png" alt="Drawing" width="400" height="350"/>  | <b>User of the month - </b> Page dedicated for all the users who contributed the most in the current month in crowd sourcing activities  |
 
 ## Built With
 
