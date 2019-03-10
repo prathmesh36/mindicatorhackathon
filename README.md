@@ -26,9 +26,11 @@ Screenshot or Video | Feature Details|
 <img src="SS/LastMile.gif" alt="Drawing" width="400" height="350"/>  | <b>Last Mile Connectivity</b> - providing last mile connectivity to users by giving direction to nearby bustops as well providing the list of bus nos. for that specific bus stop  |
 <img src="SS/Translate.gif" alt="Drawing" width="400" height="350"/>  | <b>Translate feature on Rail Chat</b> - implementation of translate feature on a dummy RailChat like Activity  |
 <img src="SS/SMS2.gif" alt="Drawing" width="400" height="350"/>  | <b>SMS Chatbot as a Offline Service - </b> Providing selected functionalities in Offline mode using SMS chat bot incase of no data connection  |
+
 :-------------------------:|:-------------------------:|:-------------------------:|
 <img src="SS/Shelter.png" alt="Drawing" width="350" height="400"/> | <img src="SS/Shelter2.png" alt="Drawing" width="350" height="400"/>  | <b>Shelter Service during disaster - </b> Providing list of nearby shelters during disaster as well as providing your home as shelter |
 <img src="SS/Forum.png" alt="Drawing" width="350" height="400"/>< | <img src="SS/Forum2.png" alt="Drawing" width="350" height="400"/>  | <b>Discussion Forum for Rail Community - </b> Allowing users to particiapte in discussion forums as well creating new forums of their own |
+
 :-------------------------:|:-------------------------:|
 <table><tr><td><img src="SS/Profile.png" alt="Drawing" width="350" height="400"/></td> <td> <img src="SS/Search.png" alt="Drawing" width="350" height="400"/></td></tr></table>  | <b>Social Network like UX - </b> Providing profile page and search option thus giving a social media like experience |
 <img src="SS/Twitter.png" alt="Drawing" width="250" height="400"/>  | <b> mIndicatorRail Twitter Feed- </b> Providing all the tweets with #mIndicatorRail hashtag as well as allowing users to tweet with the same hashtag  |
